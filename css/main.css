@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f6f6;
+}
+
+header .title {
+    background: #e0c4ee;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #74867b;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 1000;
+}
+
+
+.input {
+    margin: 100px 0 30px 0px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+
+.input p {
+    color: #744747;
+    font-size: 20px;
+}
+
+.input .input-value {
+    padding: 10px 10px;
+    border: 1px solid #5cc58b;
+    border-radius: 5px;
+
+}
+
+.input .input-value:hover,
+.input .input-value:focus {
+    border: 1px solid #6dd9d9;
+
+    outline: 0;
+}
+
+.nul {
+    background: #ed7e7e;
+}
+
+.emptyInput {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: #c6c5ce;
+    padding-top: -50px;
+
+}
+
+.button {
+    text-align: center;
+
+}
+
+.button .calculate {
+    background: #da8080;
+    color: white;
+    border: none;
+    border-bottom: solid 3px #222;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button .calculate:hover {
+    background: #f3b3eb;
+    border-bottom-color: #111;
+}
+
+.result {
+    display: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.result span {
+    font-weight: bold;
+    font-size: 18px;
+    color
+}
